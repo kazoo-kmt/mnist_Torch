@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9323A101DFA364F00E5E780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */; };
+		C9323A121DFA364F00E5E780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323A111DFA364F00E5E780 /* ViewController.swift */; };
+		C9323A151DFA364F00E5E780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9323A131DFA364F00E5E780 /* Main.storyboard */; };
+		C9323A171DFA364F00E5E780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9323A161DFA364F00E5E780 /* Assets.xcassets */; };
+		C9323A1A1DFA364F00E5E780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */; };
+		C9323A221DFA36A400E5E780 /* Torch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9323A211DFA36A400E5E780 /* Torch.framework */; };
+		C9323A251DFA36B500E5E780 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9323A241DFA36B500E5E780 /* Accelerate.framework */; };
+		C9323A281DFA36FE00E5E780 /* TorchInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = C9323A271DFA36FE00E5E780 /* TorchInterface.m */; };
+		C9323B431DFA4B1900E5E780 /* Torch.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9323A211DFA36A400E5E780 /* Torch.framework */; };
+		C9323D801DFA69EF00E5E780 /* mnist_lua in Resources */ = {isa = PBXBuildFile; fileRef = C9323D7F1DFA69EF00E5E780 /* mnist_lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9323A0C1DFA364F00E5E780 /* mnist_Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mnist_Torch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9323A111DFA364F00E5E780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9323A141DFA364F00E5E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9323A161DFA364F00E5E780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9323A191DFA364F00E5E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9323A1B1DFA364F00E5E780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9323A211DFA36A400E5E780 /* Torch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Torch.framework; sourceTree = "<group>"; };
+		C9323A241DFA36B500E5E780 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C9323A261DFA36FD00E5E780 /* mnist_Torch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mnist_Torch-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9323A271DFA36FE00E5E780 /* TorchInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchInterface.m; sourceTree = "<group>"; };
+		C9323A291DFA373C00E5E780 /* TorchInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchInterface.h; sourceTree = "<group>"; };
+		C9323D7F1DFA69EF00E5E780 /* mnist_lua */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mnist_lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9323A091DFA364F00E5E780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9323A251DFA36B500E5E780 /* Accelerate.framework in Frameworks */,
+				C9323A221DFA36A400E5E780 /* Torch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9323A031DFA364F00E5E780 = {
+			isa = PBXGroup;
+			children = (
+				C9323A0E1DFA364F00E5E780 /* mnist_Torch */,
+				C9323A0D1DFA364F00E5E780 /* Products */,
+				C9323A231DFA36B400E5E780 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9323A0D1DFA364F00E5E780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9323A0C1DFA364F00E5E780 /* mnist_Torch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9323A0E1DFA364F00E5E780 /* mnist_Torch */ = {
+			isa = PBXGroup;
+			children = (
+				C9323D7F1DFA69EF00E5E780 /* mnist_lua */,
+				C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */,
+				C9323A111DFA364F00E5E780 /* ViewController.swift */,
+				C9323A131DFA364F00E5E780 /* Main.storyboard */,
+				C9323A161DFA364F00E5E780 /* Assets.xcassets */,
+				C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */,
+				C9323A1B1DFA364F00E5E780 /* Info.plist */,
+				C9323A271DFA36FE00E5E780 /* TorchInterface.m */,
+				C9323A291DFA373C00E5E780 /* TorchInterface.h */,
+				C9323A261DFA36FD00E5E780 /* mnist_Torch-Bridging-Header.h */,
+			);
+			path = mnist_Torch;
+			sourceTree = "<group>";
+		};
+		C9323A231DFA36B400E5E780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9323A211DFA36A400E5E780 /* Torch.framework */,
+				C9323A241DFA36B500E5E780 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9323A0B1DFA364F00E5E780 /* mnist_Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9323A1E1DFA364F00E5E780 /* Build configuration list for PBXNativeTarget "mnist_Torch" */;
+			buildPhases = (
+				C9323A081DFA364F00E5E780 /* Sources */,
+				C9323A091DFA364F00E5E780 /* Frameworks */,
+				C9323A0A1DFA364F00E5E780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mnist_Torch;
+			productName = mnist_Torch;
+			productReference = C9323A0C1DFA364F00E5E780 /* mnist_Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9323A041DFA364F00E5E780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					C9323A0B1DFA364F00E5E780 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 865NZFXY4B;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9323A071DFA364F00E5E780 /* Build configuration list for PBXProject "mnist_Torch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9323A031DFA364F00E5E780;
+			productRefGroup = C9323A0D1DFA364F00E5E780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9323A0B1DFA364F00E5E780 /* mnist_Torch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9323A0A1DFA364F00E5E780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9323B431DFA4B1900E5E780 /* Torch.framework in Resources */,
+				C9323A1A1DFA364F00E5E780 /* LaunchScreen.storyboard in Resources */,
+				C9323A171DFA364F00E5E780 /* Assets.xcassets in Resources */,
+				C9323D801DFA69EF00E5E780 /* mnist_lua in Resources */,
+				C9323A151DFA364F00E5E780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9323A081DFA364F00E5E780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9323A121DFA364F00E5E780 /* ViewController.swift in Sources */,
+				C9323A281DFA36FE00E5E780 /* TorchInterface.m in Sources */,
+				C9323A101DFA364F00E5E780 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9323A131DFA364F00E5E780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9323A141DFA364F00E5E780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9323A191DFA364F00E5E780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9323A1C1DFA364F00E5E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9323A1D1DFA364F00E5E780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9323A1F1DFA364F00E5E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 865NZFXY4B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = mnist_Torch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.mnist-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mnist_Torch/mnist_Torch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C9323A201DFA364F00E5E780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 865NZFXY4B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = mnist_Torch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.mnist-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mnist_Torch/mnist_Torch-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9323A071DFA364F00E5E780 /* Build configuration list for PBXProject "mnist_Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9323A1C1DFA364F00E5E780 /* Debug */,
+				C9323A1D1DFA364F00E5E780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9323A1E1DFA364F00E5E780 /* Build configuration list for PBXNativeTarget "mnist_Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9323A1F1DFA364F00E5E780 /* Debug */,
+				C9323A201DFA364F00E5E780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9323A041DFA364F00E5E780 /* Project object */;
+}
