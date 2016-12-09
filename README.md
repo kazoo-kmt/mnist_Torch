@@ -1,4 +1,4 @@
-# mnist_TensorFlow
+# mnist_Torch
 Deep MNIST and Torch on iOS
 
 ## Reference: 
