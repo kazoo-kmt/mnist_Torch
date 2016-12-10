@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C9323A101DFA364F00E5E780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */; };
-		C9323A121DFA364F00E5E780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323A111DFA364F00E5E780 /* ViewController.swift */; };
-		C9323A151DFA364F00E5E780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9323A131DFA364F00E5E780 /* Main.storyboard */; };
 		C9323A171DFA364F00E5E780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9323A161DFA364F00E5E780 /* Assets.xcassets */; };
 		C9323A1A1DFA364F00E5E780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */; };
 		C9323A221DFA36A400E5E780 /* Torch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9323A211DFA36A400E5E780 /* Torch.framework */; };
@@ -17,13 +15,15 @@
 		C9323A281DFA36FE00E5E780 /* TorchInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = C9323A271DFA36FE00E5E780 /* TorchInterface.m */; };
 		C9323B431DFA4B1900E5E780 /* Torch.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9323A211DFA36A400E5E780 /* Torch.framework */; };
 		C9323D801DFA69EF00E5E780 /* mnist_lua in Resources */ = {isa = PBXBuildFile; fileRef = C9323D7F1DFA69EF00E5E780 /* mnist_lua */; };
+		C9323D841DFA7C6A00E5E780 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323D811DFA7C6A00E5E780 /* DrawView.swift */; };
+		C9323D851DFA7C6A00E5E780 /* MetalCNNBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323D821DFA7C6A00E5E780 /* MetalCNNBasicViewController.swift */; };
+		C9323D861DFA7C6A00E5E780 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9323D831DFA7C6A00E5E780 /* UIViewController+alert.swift */; };
+		C9323D891DFA7C8400E5E780 /* MetalCNNBasic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9323D871DFA7C8400E5E780 /* MetalCNNBasic.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9323A0C1DFA364F00E5E780 /* mnist_Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mnist_Torch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9323A111DFA364F00E5E780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9323A141DFA364F00E5E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9323A161DFA364F00E5E780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9323A191DFA364F00E5E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9323A1B1DFA364F00E5E780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +33,10 @@
 		C9323A271DFA36FE00E5E780 /* TorchInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchInterface.m; sourceTree = "<group>"; };
 		C9323A291DFA373C00E5E780 /* TorchInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchInterface.h; sourceTree = "<group>"; };
 		C9323D7F1DFA69EF00E5E780 /* mnist_lua */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mnist_lua; sourceTree = "<group>"; };
+		C9323D811DFA7C6A00E5E780 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		C9323D821DFA7C6A00E5E780 /* MetalCNNBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCNNBasicViewController.swift; sourceTree = "<group>"; };
+		C9323D831DFA7C6A00E5E780 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		C9323D881DFA7C8400E5E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MetalCNNBasic.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +74,11 @@
 			children = (
 				C9323D7F1DFA69EF00E5E780 /* mnist_lua */,
 				C9323A0F1DFA364F00E5E780 /* AppDelegate.swift */,
-				C9323A111DFA364F00E5E780 /* ViewController.swift */,
-				C9323A131DFA364F00E5E780 /* Main.storyboard */,
+				C9323D811DFA7C6A00E5E780 /* DrawView.swift */,
+				C9323D821DFA7C6A00E5E780 /* MetalCNNBasicViewController.swift */,
+				C9323D831DFA7C6A00E5E780 /* UIViewController+alert.swift */,
 				C9323A161DFA364F00E5E780 /* Assets.xcassets */,
+				C9323D871DFA7C8400E5E780 /* MetalCNNBasic.storyboard */,
 				C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */,
 				C9323A1B1DFA364F00E5E780 /* Info.plist */,
 				C9323A271DFA36FE00E5E780 /* TorchInterface.m */,
@@ -155,8 +161,8 @@
 				C9323B431DFA4B1900E5E780 /* Torch.framework in Resources */,
 				C9323A1A1DFA364F00E5E780 /* LaunchScreen.storyboard in Resources */,
 				C9323A171DFA364F00E5E780 /* Assets.xcassets in Resources */,
+				C9323D891DFA7C8400E5E780 /* MetalCNNBasic.storyboard in Resources */,
 				C9323D801DFA69EF00E5E780 /* mnist_lua in Resources */,
-				C9323A151DFA364F00E5E780 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,29 +173,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9323A121DFA364F00E5E780 /* ViewController.swift in Sources */,
 				C9323A281DFA36FE00E5E780 /* TorchInterface.m in Sources */,
+				C9323D841DFA7C6A00E5E780 /* DrawView.swift in Sources */,
+				C9323D861DFA7C6A00E5E780 /* UIViewController+alert.swift in Sources */,
 				C9323A101DFA364F00E5E780 /* AppDelegate.swift in Sources */,
+				C9323D851DFA7C6A00E5E780 /* MetalCNNBasicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9323A131DFA364F00E5E780 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9323A141DFA364F00E5E780 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9323A181DFA364F00E5E780 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C9323A191DFA364F00E5E780 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9323D871DFA7C8400E5E780 /* MetalCNNBasic.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9323D881DFA7C8400E5E780 /* Base */,
+			);
+			name = MetalCNNBasic.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,6 +354,7 @@
 				C9323A201DFA364F00E5E780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

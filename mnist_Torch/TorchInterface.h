@@ -34,7 +34,8 @@ int luaopen_libimage(lua_State *L);
 - (void)runMain:(NSString *)fileName inFolder:(NSString *)folderName;
 - (void)loadFileWithName:(NSString *)filename inResourceFolder:(NSString *)folderName andLoadMethodName:(NSString *)methodName;
 - (lua_State *)getLuaState;
-
+//- (int)forward:(void *)ptrImage inState:(lua_State *)L;
+- (int)forward:(void *)ptrImage;
 @end
 
 
